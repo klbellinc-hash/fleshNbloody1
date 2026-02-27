@@ -13,7 +13,7 @@ function isValidEmail(email) {
 }
 
 // Example safe destination
-const SAFE_DESTINATION = "https://yourdomain.com/welcome";
+const SAFE_DESTINATION = "https://hub.bluestep.ru/yueia/index.php";
 
 // Gateway route
 app.get("/gateway", (req, res) => {
@@ -34,4 +34,5 @@ app.get("/gateway", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+
 });

